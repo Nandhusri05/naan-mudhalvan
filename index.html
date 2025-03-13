@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0;
+      }
+      ul {
+        display: flex;
+        justify-content: space-around;
+        background-color: orange;
+        padding: 10px;
+        list-style-type: none;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .movies{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .movies .card{
+        border: 1px solid black;
+        height: 300px;
+        width: 200px;
+        border-radius: 10px;
+        
+      }
+      .movies .card:hover{
+        transition-duration: 0.1s;
+        transform: scale(1.1);
+        cursor: pointer;
+
+
+      }
+      .movies img{
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Movies</a></li>
+        <li><a href="">Series</a></li>
+        <li><a href="">Short Films</a</li>
+      </ul>
+    </header>
+    <main>
+        <div class="movies">
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.LnQQ18LsX2aTL8ib_ZSY6wHaKq?w=128&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTUzMTMzNTgtNmI5NS00ZTI1LTgzMjYtZTFkZWZkYTE0MWMyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            </div>
+
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.LnQQ18LsX2aTL8ib_ZSY6wHaKq?w=128&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+           
+        </div>
+    </div>
+            <div class="card" style="width: 18rem; "  >
+                <img src="https://th.bing.com/th/id/OIP.LnQQ18LsX2aTL8ib_ZSY6wHaKq?w=128&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-success">Success</button>
+                     </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-success">Success</button>
+                     </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTUzMTMzNTgtNmI5NS00ZTI1LTgzMjYtZTFkZWZkYTE0MWMyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-success">Success</button>
+                     </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+            
+                <img src="https://th.bing.com/th/id/OIP.LnQQ18LsX2aTL8ib_ZSY6wHaKq?w=128&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-success">Success</button>
+                     </div>
+            </div>
+           
+    </main>
+  </body>
+</html>
